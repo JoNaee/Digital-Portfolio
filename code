@@ -1,0 +1,13 @@
+# title: 
+# author: 
+# description: 
+
+from earsketch import *
+beat1 = "0++0++0++0++00-0"
+fitMedia(RD_CINEMATIC_SCORE_STRINGS_13, 1, 2, 30)
+for measure in range(2,30):
+    makeBeat(COMMON_LOVE_DRUMBEAT_1, 2, measure, beat1)
+setEffect(3, DELAY, DELAY_TIME, 500)
+fitMedia(JONAEE_RICK_ROLL_SOUND_EFFECT, 3, 30, 35)
+
+setTempo(120)
